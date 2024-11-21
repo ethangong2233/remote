@@ -1,1 +1,46 @@
-{"importBase":"import","nativeBase":"native","name":"LobbyScene","deps":[],"uuids":["01665d2fe","0aeGrKrO5DYqxhw9rNlFpj@f9941","feWn4fPiVDlrs/0xd6P4nb","0aeGrKrO5DYqxhw9rNlFpj","0aeGrKrO5DYqxhw9rNlFpj@6c48a"],"paths":{"1":["Texture/BG/spriteFrame",2,1],"3":["Texture/BG",0],"4":["Texture/BG/texture",1,1]},"scenes":{"db://assets/LobbyScene/QSLobby.scene":2},"packs":{"01665d2fe":["1","2"]},"versions":{"import":[],"native":[]},"redirect":[],"debug":false,"extensionMap":{},"hasPreloadScript":true,"types":["cc.ImageAsset","cc.Texture2D","cc.SpriteFrame"]}
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "LobbyScene",
+    "deps": [],
+    "uuids": [
+        "01665d2fe",
+        "0a786aca-acee-4362-ac61-c3dacd945a63",
+        "0a786aca-acee-4362-ac61-c3dacd945a63@6c48a",
+        "0a786aca-acee-4362-ac61-c3dacd945a63@f9941",
+        "fe5a7e1f-3e25-4396-bb3f-d3177a3f89db"
+    ],
+    "paths": {
+        "0a786aca-acee-4362-ac61-c3dacd945a63": [
+            "Texture/BG",
+            "cc.ImageAsset"
+        ],
+        "0a786aca-acee-4362-ac61-c3dacd945a63@6c48a": [
+            "Texture/BG/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0a786aca-acee-4362-ac61-c3dacd945a63@f9941": [
+            "Texture/BG/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/LobbyScene/QSLobby.scene": "fe5a7e1f-3e25-4396-bb3f-d3177a3f89db"
+    },
+    "packs": {
+        "01665d2fe": [
+            "0a786aca-acee-4362-ac61-c3dacd945a63@f9941",
+            "fe5a7e1f-3e25-4396-bb3f-d3177a3f89db"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true
+}

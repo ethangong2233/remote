@@ -1,6 +1,61 @@
-System.register("chunks:///_virtual/LobbyScene",["./LobbyScene.ts"],(function(){return{setters:[null],execute:function(){}}}));
+System.register("chunks:///_virtual/LobbyScene", ['./LobbyScene.ts'], function () {
+  return {
+    setters: [null],
+    execute: function () {}
+  };
+});
 
-System.register("chunks:///_virtual/LobbyScene.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(e){var t,n,o,r,c,i;return{setters:[function(e){t=e.applyDecoratedDescriptor,n=e.initializerDefineProperty},function(e){o=e.cclegacy,r=e.Label,c=e._decorator,i=e.Component}],execute:function(){var s,l,u,a,b;o._RF.push({},"f6da7vasiZHA5TgmHNqGg+O","LobbyScene",void 0);const{ccclass:p,property:y}=c;e("LobbyScene",(s=p("LobbyScene"),l=y(r),s((b=t((a=class extends i{constructor(...e){super(...e),n(this,"lbCountDown",b,this)}start(){let e=100;this.schedule((()=>{this.lbCountDown.string=(e--).toString()}),1,100)}update(e){}}).prototype,"lbCountDown",[l],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),u=a))||u));o._RF.pop()}}}));
+System.register("chunks:///_virtual/LobbyScene.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Label, _decorator, Component;
+
+  return {
+    setters: [function (module) {
+      _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
+      _initializerDefineProperty = module.initializerDefineProperty;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      Label = module.Label;
+      _decorator = module._decorator;
+      Component = module.Component;
+    }],
+    execute: function () {
+      var _dec, _dec2, _class, _class2, _descriptor;
+
+      cclegacy._RF.push({}, "f6da7vasiZHA5TgmHNqGg+O", "LobbyScene", undefined);
+
+      const {
+        ccclass,
+        property
+      } = _decorator;
+      let LobbyScene = exports('LobbyScene', (_dec = ccclass('LobbyScene'), _dec2 = property(Label), _dec(_class = (_class2 = class LobbyScene extends Component {
+        constructor(...args) {
+          super(...args);
+
+          _initializerDefineProperty(this, "lbCountDown", _descriptor, this);
+        }
+
+        start() {
+          let a = 100;
+          this.schedule(() => {
+            this.lbCountDown.string = (a--).toString();
+          }, 1, 100);
+        }
+
+        update(deltaTime) {}
+
+      }, _descriptor = _applyDecoratedDescriptor(_class2.prototype, "lbCountDown", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _class2)) || _class));
+
+      cclegacy._RF.pop();
+    }
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/LobbyScene', 'chunks:///_virtual/LobbyScene'); 
